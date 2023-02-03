@@ -1,5 +1,3 @@
-import javax.swing.tree.TreeNode;
-
 public class problem1145 {
     TreeNode xNode;
     public boolean btreeGameWinningMove(TreeNode root, int n, int x) {
