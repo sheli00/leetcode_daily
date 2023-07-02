@@ -1,11 +1,6 @@
-name: sync-gitee-mirror
+- name: sync-gitee-mirror
   uses: abersheeran/sync-gitee-mirror@v1-beta
   with:
-    # Gitee 仓库，例如 abersheeran/gitee-mirror
-    repository: sheli/leetcode_daily
-    # Gitee 
-    username: zsheli
-    # Gitee 密码，用于登录。
-    password: ${{ GITEE_PASSWORD }}
-    # GitHub 令牌，用于私有仓库的拉取。
-    token:
+    repository: abersheeran/sync-gitee-mirror
+    username: ${{ secrets.USERNAME }}
+    password: ${{ secrets.PASSWORD }}
